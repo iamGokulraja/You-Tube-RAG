@@ -1,0 +1,9 @@
+streamlit
+youtube-transcript-api
+sentence-transformers
+torch
+psycopg2-binary
+pgvector
+openai
+python-dotenv
+numpy
