@@ -22,7 +22,7 @@ Instead of sending the entire transcript to the AI model, the application:
 1. Extracts the YouTube transcript.
 2. Splits the transcript into smaller chunks.
 3. Converts each chunk into vector embeddings.
-4. Stores embeddings in PostgreSQL using pgvector.
+4. Stores embeddings in Neon PostgreSQL Cloud Database using pgvector.
 5. Retrieves only the most relevant chunks based on the user's question.
 6. Sends only the relevant context to the LLM.
 7. Generates an accurate answer grounded in the video content.
@@ -62,8 +62,8 @@ This makes the system faster, scalable, and more cost-efficient.
 
 ### Vector Database
 
-- PostgreSQL
 - pgvector
+- Neon PostgreSQL
 
 ### LLM
 
