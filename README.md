@@ -6,7 +6,8 @@ An AI-powered application that allows users to ask questions about any YouTube v
 
 ## 🚀 Live Demo
 
-🔗 Live Application: https://you-tube-rag.streamlit.app
+🔗 Live Application: 
+https://you-tube-rag.streamlit.app
 
 📂 GitHub Repository: https://github.com/iamGokulraja/You-Tube-RAG
 
