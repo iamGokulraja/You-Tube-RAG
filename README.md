@@ -1,10 +1,10 @@
-🎥 YouTube RAG (Retrieval-Augmented Generation)
+# 🎥 YouTube RAG (Retrieval-Augmented Generation)
 
 An AI-powered application that allows users to ask questions about any YouTube video by extracting its transcript, generating semantic embeddings, storing them in a vector database, and using an LLM to generate accurate context-aware answers.
 
 ---
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 🔗 Live Application: https://you-tube-rag.streamlit.app
 
@@ -12,7 +12,7 @@ An AI-powered application that allows users to ask questions about any YouTube v
 
 ---
 
-📖 Project Overview
+## 📖 Project Overview
 
 YouTube RAG is a Retrieval-Augmented Generation (RAG) application built using Python, Streamlit, Sentence Transformers, pgvector, PostgreSQL, and OpenRouter LLM.
 
@@ -30,7 +30,7 @@ This makes the system faster, scalable, and more cost-efficient.
 
 ---
 
-✨ Features
+## Features 📊
 
 - 🎥 Process any YouTube video with English subtitles
 - 📝 Automatically fetch video transcript
@@ -44,31 +44,31 @@ This makes the system faster, scalable, and more cost-efficient.
 
 ---
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-Frontend
+### Frontend
 
 - Streamlit
 
-Backend
+### Backend
 
 - Python
 
-AI / Machine Learning
+### AI / Machine Learning
 
 - Sentence Transformers
 - all-MiniLM-L6-v2
 
-Vector Database
+### Vector Database
 
 - PostgreSQL
 - pgvector
 
-LLM
+### LLM
 
 - OpenRouter API
 
-Libraries
+### Libraries
 
 - youtube-transcript-api
 - psycopg2
@@ -78,7 +78,7 @@ Libraries
 
 ---
 
-🏗 System Architecture
+## 🏗 System Architecture
 
 YouTube URL
       │
@@ -114,7 +114,7 @@ Final Answer
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 You-Tube-RAG/
 │
@@ -126,7 +126,7 @@ You-Tube-RAG/
 
 ---
 
-⚙ Installation
+## ⚙ Installation
 
 Clone Repository
 
@@ -136,7 +136,7 @@ cd You-Tube-RAG
 
 ---
 
-Create Virtual Environment
+## Create Virtual Environment
 
 python -m venv venv
 
@@ -158,7 +158,7 @@ pip install -r requirements.txt
 
 ---
 
-Environment Variables
+## Environment Variables
 
 Create a ".env" file.
 
@@ -172,13 +172,13 @@ DB_PORT=5432
 
 ---
 
-Run the Project
+## Run the Project
 
 streamlit run app.py
 
 ---
 
-📚 How It Works
+## 📚 How It Works
 
 Step 1
 
@@ -222,7 +222,7 @@ The AI generates the final answer.
 
 ---
 
-💡 Why RAG?
+## 💡 Why RAG?
 
 Instead of sending an entire transcript to an LLM, Retrieval-Augmented Generation (RAG):
 
@@ -234,21 +234,7 @@ Instead of sending an entire transcript to an LLM, Retrieval-Augmented Generatio
 
 ---
 
-📸 Screenshots
-
-Add screenshots here.
-
-Home Page
-
-Processing Video
-
-Question Answering
-
-Results
-
----
-
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Support multilingual transcripts
 - Upload local video files
@@ -262,9 +248,9 @@ Results
 
 ---
 
-👨‍💻 Author
+# 👨‍💻 Author
 
-Gokul Raja
+## Gokul Raja
 
 Electronics and Communication Engineering Student
 
@@ -278,12 +264,11 @@ If you found this project helpful,
 
 ⭐ Star this repository
 
-🍴 Fork the repository
 
 📝 Share your feedback
 
 ---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
