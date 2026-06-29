@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st  
 from youtube_transcript_api import YouTubeTranscriptApi
 from sentence_transformers import SentenceTransformer
 import psycopg2
@@ -32,7 +32,7 @@ def ConnectDB():
         user = os.getenv("DB_USER"),
         password = os.getenv("DB_PASSWORD"),
         port = os.getenv("DB_PORT") ,
-        sslmode = "require"
+        sslmode = "disable"
     )
 
     register_vector(conn)
